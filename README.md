@@ -1,10 +1,10 @@
-# 🌌 Scene 2 - Blender Landscape & Physics Simulation
+#  Scene 2 - Blender Landscape & Physics Simulation
 
 A detailed natural landscape scene created in **Blender 5.1.x** featuring terrain geometry, water simulation (dynamic paint ripples + ocean waves), high-poly tree models, and a particle system distribution.
 
 ---
 
-## 📊 Scene Statistics & Settings
+##  Scene Statistics & Settings
 
 ### Render Configurations
 * **Render Engine:** `CYCLES` (Path Tracing)
@@ -22,7 +22,7 @@ A detailed natural landscape scene created in **Blender 5.1.x** featuring terrai
 
 ---
 
-## 📁 Scene Hierarchy & Collections
+##  Scene Hierarchy & Collections
 
 ```
 Scene Collection
@@ -40,7 +40,7 @@ Scene Collection
 
 ---
 
-## 🌊 Modifiers & Physics Simulations
+##  Modifiers & Physics Simulations
 
 This scene makes heavy use of physics caching to simulate natural elements. The physics cache is stored in the `blendcache_scene2` folder.
 
@@ -58,7 +58,7 @@ This scene makes heavy use of physics caching to simulate natural elements. The 
 
 ---
 
-## 🎨 Materials & Texture Audit
+##  Materials & Texture Audit
 
 The scene references 5 node-based materials. Several external textures are linked, some of which use **absolute paths** that may need updating on your system:
 
@@ -70,7 +70,7 @@ The scene references 5 node-based materials. Several external textures are linke
 | **`Material.011`** | `Plane` (Ground) | *Procedural shader nodes* | `OK` (Self-contained) |
 | **`World Environment`** | World background | `cloud_layers_4k.exr` | `OK` (Relative `//cloud_layers_4k.exr`) |
 
-### ⚠️ Attention Required: Potentially Broken File Paths
+###  Attention Required: Potentially Broken File Paths
 Blender's file structure database indicates that the following image assets are mapped to local directories that may not exist on your computer:
 1. **Tree Bark Texture (`BarkDecidious0194_7_S.jpg`):**
    * *Path:* `D:\Models\1f9jtr180dxk-Tree1ByTyroSmith\Tree1\BarkDecidious0194_7_S.jpg`
@@ -81,7 +81,7 @@ Blender's file structure database indicates that the following image assets are 
 
 ---
 
-## 🛠️ How to Open & Configure the Scene
+##  How to Open & Configure the Scene
 
 ### 1. Requirements
 * **Blender Version:** Blender **5.1.x** is recommended. The file uses compression and structural features that may fail to read in Blender versions prior to 5.0 (which will return a *"not a blend file"* error).
